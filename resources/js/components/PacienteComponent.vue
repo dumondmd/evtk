@@ -11,26 +11,26 @@
             <form action="./api/paciente" method="POST" @submit.prevent="addPaciente()">           
               <div class="form-row">
                 <div class="form-group col-md-2">
-                  <label for="inputCPF">CPF</label>
-                  <input type="text" class="form-control" id="inputCPF">
+                  <label for="cpf">CPF</label>
+                  <input type="text" class="form-control" id="cpf">
                 </div>
                 <div class="form-group col-md-5">
-                  <label for="inputNome">Nome</label>
-                  <input type="text" class="form-control" id="inputNome">
+                  <label for="nome">Nome</label>
+                  <input type="text" class="form-control" id="nome">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">RG</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="rg">RG</label>
+                  <input type="text" class="form-control" id="rg">
                 </div>
                 <div class="form-group col-md-3">
-                  <label for="inputZip">Cartão do SUS</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="cartao_sus">Cartão do SUS</label>
+                  <input type="text" class="form-control" id="cartao_sus">
                 </div>
               </div>
 
               <div class="form-row">
                 <div class="form-group col-md-2">
-                  <label for="inputCPF">Sexo</label>
+                  <label for="sexo">Sexo</label>
                   <select id="inputState" class="form-control">
                     <option selected>Masculino</option>
                     <option>Masculino</option>
@@ -38,58 +38,58 @@
                   </select>
                 </div>
                 <div class="form-group col-md-3">
-                  <label for="inputNome">Nascimento</label>
-                  <input type="date" class="form-control" id="inputNome">
+                  <label for="nascimento">Nascimento</label>
+                  <input type="date" class="form-control" id="nascimento">
                 </div>
                 <div class="form-group col-md-5">
-                  <label for="inputZip">Nome da Mãe</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="nome_mae">Nome da Mãe</label>
+                  <input type="text" class="form-control" id="nome_mae">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">Telefone</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="telefone">Telefone</label>
+                  <input type="text" class="form-control" id="telefone">
                 </div>
               </div>
 
               <div class="form-row">
                 <div class="form-group col-md-2">
-                  <label for="inputCPF">CEP</label>
-                  <input type="text" class="form-control" id="inputCPF">
+                  <label for="cep">CEP</label>
+                  <input type="text" class="form-control" id="cep">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputCPF">Avenida/Rua</label>
-                  <input type="text" class="form-control" id="inputCPF">
+                  <label for="rua">Avenida/Rua</label>
+                  <input type="text" class="form-control" id="rua">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputNome">Número</label>
-                  <input type="text" class="form-control" id="inputNome">
+                  <label for="numero">Número</label>
+                  <input type="text" class="form-control" id="numero">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">Quadra</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="quadra">Quadra</label>
+                  <input type="text" class="form-control" id="quadra">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">Lote</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="lote">Lote</label>
+                  <input type="text" class="form-control" id="lote">
                 </div>
               </div>
 
               <div class="form-row">
                 <div class="form-group col-md-5">
-                  <label for="inputCPF">Complemento</label>
-                  <input type="text" class="form-control" id="inputCPF">
+                  <label for="complemento">Complemento</label>
+                  <input type="text" class="form-control" id="complemento">
                 </div>
                 <div class="form-group col-md-4">
-                  <label for="inputNome">Bairro</label>
-                  <input type="text" class="form-control" id="inputNome">
+                  <label for="bairoo">Bairro</label>
+                  <input type="text" class="form-control" id="bairro">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">Cidade</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="cidade">Cidade</label>
+                  <input type="text" class="form-control" id="cidade">
                 </div>
                 <div class="form-group col-md-1">
-                  <label for="inputZip">UF</label>
-                  <input type="text" class="form-control" id="inputZip">
+                  <label for="uf">UF</label>
+                  <input type="text" class="form-control" id="uf">
                 </div>
               </div>
               <div class="container-fluid">
@@ -150,7 +150,7 @@
 
 <div class="container">
     
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalExcluir">Excluir paciente</button>
+  <button type="button" class="btn" data-toggle="modal" data-target="#modalExcluir">Excluir paciente</button>
 
   <!-- Modal -->
   <div class="modal fade" id="modalExcluir" role="dialog">
@@ -173,7 +173,7 @@
 
 <div class="container">
     
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalAtualizar">Atualizar paciente</button>
+  <button type="button" class="btn" data-toggle="modal" data-target="#modalAtualizar">Atualizar paciente</button>
 
   <!-- Modal -->
   <div class="modal fade" id="modalAtualizar" role="dialog">
@@ -196,7 +196,7 @@
 
 <div class="container">
     
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalSucesso">Sucesso</button>
+  <button type="button" class="btn" data-toggle="modal" data-target="#modalSucesso">Sucesso</button>
 
   <!-- Modal -->
   <div class="modal fade" id="modalSucesso" role="dialog">
@@ -216,8 +216,6 @@
   </div>  
 </div>
 
-
-<h1>Testes</h1>
 
 
 
@@ -240,7 +238,25 @@
     },
     methods:{
       addPaciente(){
-        alert('adicionando...');
+        axios.post('./api/pacientes', {
+          cpf : this.cpf,
+          nome : this.nome,
+          rg : this.rg,
+          cartao_sus : this.cartao_sus,
+          sexo : this.sexo,
+          nascimento : this.nascimento,
+          nome_mae : this.nome_mae,
+          telefone : this.telefone,
+          cep : this.cep,
+          rua : this.rua,
+          numero : this.numero,
+          quadra : this.quadra,
+          lote : this.lote,
+          complemento : this.complemento,
+          bairro : this.bairro,
+          cidade : this.cidade,
+          uf : this.uf,
+        });
       }
     }
   }
