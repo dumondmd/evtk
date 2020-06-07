@@ -24,6 +24,12 @@ Bando de dados **MySQL**
 php artisan migrate
 ```
 
+Gere os registros do banco de dados para teste
+
+```
+php artisan db:seed
+```
+
 # API REST
 
 GET | http://127.0.0.1:8000/api/paciente

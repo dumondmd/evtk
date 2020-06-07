@@ -27,7 +27,7 @@ $factory->define(Paciente::class, function (Faker $faker) {
         'nascimento' => now(),
         'nome_mae' => $faker->name,
         'telefone' => $faker->phoneNumber,
-        'cep' => $faker->numberBetween(10,200)
+        'cep' => $faker->numberBetween(10,200),
         'rua' => $faker->name,
         'numero' => $faker->numberBetween(0,20),
         'quadra' => $faker->numberBetween(0,20),
