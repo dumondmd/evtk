@@ -17,5 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dev', function () {
+    return view('paciente');
+});
 
 //Route::get('/', 'PacienteController@index');
