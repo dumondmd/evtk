@@ -27,7 +27,7 @@ php artisan migrate
 Gere os registros do banco de dados para teste
 
 ```
-php artisan db:seed
+php artisan db:seed --class=PacienteSeeder
 ```
 
 # API REST
